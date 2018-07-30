@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TestLibraryComponent } from './test-library.component';
+import { VarshaLibraryComponent } from './varsha-library.component';
 
-describe('TestLibraryComponent', () => {
-  let component: TestLibraryComponent;
-  let fixture: ComponentFixture<TestLibraryComponent>;
+describe('VarshaLibraryComponent', () => {
+  let component: VarshaLibraryComponent;
+  let fixture: ComponentFixture<VarshaLibraryComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TestLibraryComponent ]
+      declarations: [ VarshaLibraryComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TestLibraryComponent);
+    fixture = TestBed.createComponent(VarshaLibraryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

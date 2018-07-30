@@ -1,7 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/test-library",
-  "deleteDestPath": false,
+  "dest": "../../dist/varsha-library",
   "lib": {
     "entryFile": "src/public_api.ts"
   }
